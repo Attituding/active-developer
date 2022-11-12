@@ -1,25 +1,8 @@
-A serverless Discord Bot designed for Cloudflare Workers.
+A serverless Discord Bot designed to get your Discord account the "Active Developer" badge while learning a bit about serverless technology.
 
-Average CPU Time (roughly) w/o database:
-- Median: 3.5 milliseconds
-- 50th percentile: 3.5 milliseconds
-- 75th percentile: 4.4 milliseconds
-- 99th percentile: 5.1 milliseconds
-- 99.9th percentile: 5.2 milliseconds
+Based on https://github.com/Attituding/serverless-discord-bot.
 
-Features:
-- Basic i18n implementation
-- Built in database via Prisma (WIP)
-- Chat input support (Slash commands)
-- Context menu support (Right click actions)
-- Easy deployment of commands
-- Minimal dependencies
-- Object-oriented design
-- Organized command structure
-- Written in TypeScript
-
-Secrets: DATABASE_URL, DISCORD_APPLICATION_ID, DISCORD_TOKEN, DISCORD_PUBLIC_KEY
-
+THIS PART IS IN PROGRESS:
 1) Run "npm i"
 2) Install Wrangler globally with "npm i wrangler -g"
 3) Set environment variables locally (see sample.env file)
